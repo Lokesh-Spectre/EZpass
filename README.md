@@ -12,8 +12,16 @@ Many essential features are yet to be added.
 > Auto filling creds through extension
 ![Chrome](https://github.com/Lokesh-Spectre/EZpass/assets/65003955/7ad04604-bfba-404b-b2e8-d088aceb8d4c)
 
+# instructions to add chrome extension
+* download the repositort as rar file and extract
+* add chrome extension folder to chrome as shown below
+![add_extension](https://github.com/Lokesh-Spectre/EZpass/assets/65003955/65a18bf4-4781-42e6-b171-96218b75e7fa)
 
-##TO DO
+# DOWNLOAD Links
+> https://drive.google.com/file/d/1XiDp6ecKv0RrqrOHi_Ho8WZyio9dfX7n/view?usp=sharing
+
+## TO DO
+
 * add multiple profiles and multiple creds for each site
 * better auto fill compatability
 * implement SSH handshake 
