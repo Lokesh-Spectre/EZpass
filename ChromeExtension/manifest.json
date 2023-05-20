@@ -1,0 +1,31 @@
+{
+	"manifest_version":3,
+	"version":"0.0.1",
+	"name":"EZpassExtension",
+	"description":"extension for EZpass password manager",
+	"background":{
+		"service_worker":"bg.js"
+	},
+	"content_scripts": [
+        {
+        "matches": ["https://*/*"],
+        "js": ["contents.js"]
+        }
+	],
+	"host_permissions": [
+
+       "http://*/*",
+       "https://*/*"     
+	],
+	"permissions":[
+		"tabs",
+		"activeTab",
+		"nativeMessaging"
+	],
+	"icons":{
+		"16":"extension_logo/EZpassLogo16.png",
+		"32":"extension_logo/EZpassLogo32.png",
+		"48":"extension_logo/EZpassLogo48.png",
+		"128":"extension_logo/EZpassLogo128.png"
+	}
+}
