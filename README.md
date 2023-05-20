@@ -7,8 +7,18 @@ Many essential features are yet to be added.
 
 
 
-#TO DO
+##TO DO
 * add multiple profiles and multiple creds for each site
 * better auto fill compatability
 * implement SSH handshake 
 * Auto Save function 
+
+
+> Only a few websites support autofilling as of now
+
+### supported websites
+* github
+* amazon.in
+* quora
+* stackoverflow
+* wikipedia
